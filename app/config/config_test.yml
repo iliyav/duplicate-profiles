@@ -1,0 +1,30 @@
+imports:
+    - { resource: config_dev.yml }
+
+framework:
+    test: ~
+    session:
+        storage_id: session.storage.mock_file
+    profiler:
+        collect: false
+
+doctrine:
+    dbal:
+         driver:   "%database_driver%"
+         host:     "%database_host%"
+         port:     "%database_port%"
+         dbname:   "helpscout_test"
+         user:     "root"
+         password: "%database_password%"
+         charset:  UTF8
+
+    orm:
+         auto_generate_proxy_classes: "%kernel.debug%"
+         auto_mapping: true
+
+web_profiler:
+    toolbar: false
+    intercept_redirects: false
+
+swiftmailer:
+    disable_delivery: true

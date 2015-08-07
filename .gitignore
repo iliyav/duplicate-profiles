@@ -1,0 +1,16 @@
+app/bootstrap.php.cache
+app/cache/*
+app/config/parameters.yml
+app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+bin/
+bower_components/
+build/
+node_modules/
+web/app/dist/
+web/app/src/templates.js
+web/app/vendor/
+web/bundles/
+web/css/compiled/
+vendor/

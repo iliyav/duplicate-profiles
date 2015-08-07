@@ -1,0 +1,41 @@
+DP\ProfileBundle\Entity\Profile:
+    type: entity
+    table: profiles
+    repositoryClass: DP\ProfileBundle\Entity\ProfileRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        email:
+            type: string
+            length: 255
+            nullable: false
+        firstName:
+            type: string
+            length: 255
+            nullable: false
+            column: first_name
+        lastName:
+            type: string
+            length: 255
+            nullable: false
+            column: last_name
+        phone:
+            type: string
+            length: 255
+            nullable: false
+    indexes:
+        email_idx:
+            columns:
+                - email
+        last_name_idx:
+            columns:
+                - last_name
+        phone_idx:
+            columns:
+                - phone
+
+    lifecycleCallbacks: {  }

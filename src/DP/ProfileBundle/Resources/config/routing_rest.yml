@@ -1,0 +1,4 @@
+profiles:
+    resource:    "DPProfileBundle:Profile"
+    type:        rest
+    name_prefix: api_

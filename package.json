@@ -1,0 +1,24 @@
+{
+    "name": "SS",
+    "private": true,
+    "dependencies": {
+        "gulp": "3.8.11",
+        "gulp-concat": "2.4.1",
+        "gulp-install": "0.2.0",
+        "gulp-jshint": "1.8.4",
+        "gulp-karma": "0.0.4",
+        "gulp-livereload": "2.1.1",
+        "gulp-phpunit": "0.7.0",
+        "gulp-template-compile": "0.2.1",
+        "karma": "0.12.24",
+        "karma-jasmine": "0.2.2",
+        "karma-jasmine-jquery": "0.1.1",
+        "karma-phantomjs-launcher": "0.1.4",
+        "karma-requirejs": "0.2.2",
+        "karma-sinon": "1.0.3",
+        "karma-spec-reporter": "0.0.13",
+        "requirejs": "2.1.15",
+        "sinon": "1.10.3",
+        "yargs": "1.3.2"
+    }
+}
